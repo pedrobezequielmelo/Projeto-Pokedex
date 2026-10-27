@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+--primary-color:#3692de;
+--secondary-color:#bce7dd;
+--dark:#2d352d;
+--white:#ffffff;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+text-align:center;
+background:linear-gradient(to bottom,var(--primary-color),var(--secondary-color));
+min-height:100vh;
+
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+
+}
+
+header,
+footer{
+padding:1rem;
+}
+
+main{
+position:relative;
+width:min(90vw,45rem);
+}
+
+.pokedex{
+width:100%;
+display:block;
+}
+
+.pokemon_img{
+position:absolute;
+bottom:35%;
+left:30%;
+transform:translateX(-65%);
+width:15%;
+}
+
+.pokemon_data{
+position:absolute;
+top:55%;
+left:75%;
+transform:translate(-50%,-120%);
+
+
+color:white;
+font-size:clamp(.8rem,2vw,1.3rem);
+width:100%;
+
+
+}
+
+.form{
+display:flex;
+justify-content:center;
+gap:.5rem;
+
+width:100%;
+max-width:20rem;
+
+margin:2rem auto 1rem;
+
+}
+
+.input_search{
+flex:1;
+padding:.7rem;
+
+border:.2rem solid #2b2a2a;
+border-radius:.4rem;
+
+background:#2d352d;
+color:white;
+
+}
+
+.pesquisa{
+background:#2d352d;
+color:white;
+
+border:.2rem solid #2b2a2a;
+border-radius:.4rem;
+
+padding:.7rem .8rem;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.pesquisa:hover{
+transform:scale(1.05);
+}
+
+.input_search:focus,
+.pesquisa:focus{
+outline:3px solid yellow;
+outline-offset:2px;
+}
+
+.pokemon_info_box{
+position:absolute;
+
+top:50%;
+left:105%;
+
+transform:translateY(-50%);
+
+width:min(25rem,90vw);
+
+background:rgba(0,0,0,.75);
+
+color:white;
+
+padding:1rem;
+
+border-radius:12px;
+
+
+}
+
+#mensagem-erro{
+color:red;
+font-weight:bold;
+margin-bottom:1rem;
+}
+
+.sr-only{
+position:absolute;
+left:-9999px;
+}
+
+@media(max-width:768px){
+
+
+body{
+    padding:1rem;
+}
+
+main{
+    width:100%;
+    max-width:450px;
+}
+
+.pokemon_info_box{
+    position:static;
+    transform:none;
+
+    width:100%;
+    margin-top:1rem;
+}
+
+.form{
+    width:100%;
+}
+
+.pokemon_img{
+    width:18%;
+}
+
+
+}
