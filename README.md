@@ -174,11 +174,10 @@ Campos utilizados da resposta:
 | Nome | GitHub |
 |------|--------|
 | Pedro Bezequiel Melo | [@pedrobezequielmelo](https://github.com/pedrobezequielmelo) |
-| *[Outros integrantes, se houver]* | |
+
 
 **Professor(a):** [Nome do Professor]
-**Curso:** [Nome do Curso] — **Semestre:** [Semestre/Ano]
-
+**Curso:** Sistemas de Informaçao — **Semestre:** 1/2026
 ---
 
 ## ⚖️ Aviso Legal
