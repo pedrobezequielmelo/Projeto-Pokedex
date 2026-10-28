@@ -176,7 +176,7 @@ Campos utilizados da resposta:
 | Pedro Bezequiel Melo | [@pedrobezequielmelo](https://github.com/pedrobezequielmelo) |
 
 
-**Professor(a):** [Nome do Professor]
+**Professor(a):** Angela Arruda
 **Curso:** Sistemas de Informaçao — **Semestre:** 1/2026
 ---
 
