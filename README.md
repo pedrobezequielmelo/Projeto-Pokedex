@@ -1,6 +1,6 @@
 # 📘 Projeto Pokédex
 
-> Projeto acadêmico desenvolvido para a disciplina de **[Nome da Disciplina]** — **[Nome da Faculdade]**.
+> Projeto acadêmico desenvolvido para a disciplina de **Intro. Desenvolvimento web** — **Universidade do Planalto Catarinense**.
 
 Uma Pokédex web simples e interativa: o usuário digita o **nome** ou o **número** de um Pokémon e a aplicação exibe sua imagem e suas principais informações, consumindo dados em tempo real da [PokéAPI](https://pokeapi.co/).
 
